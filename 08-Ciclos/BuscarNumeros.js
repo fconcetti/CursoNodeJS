@@ -37,6 +37,7 @@ function obtenerNumero(i,j,contadorvueltas, numeroIngresado) {
             console.log(`El numero era ${i}`);
             console.log(`Lo encontre en  ${contadorvueltas}`);
             console.log(`Optimizado en  ${i}-${contadorvueltas}`);
+            console.log("Fin del programa");
         }
     }
   }
