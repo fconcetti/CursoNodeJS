@@ -1,4 +1,5 @@
-{    const numeroIngresado= process.argv[2]
+{    
+    const numeroIngresado= process.argv[2]
     let cantidadDigitos = numeroIngresado.length
     let contadorvueltas = 0
 
@@ -31,8 +32,10 @@
 }
 
 function obtenerNumero(i,j,contadorvueltas, numeroIngresado) {
-    for (let i = 1; j <= 9; i++) {
+    for (let i = 1; j <= i; i++) {
         contadorvueltas++;
+        console.log(` ${i}`);
+        console.log(` ${j}`);
         if (i == numeroIngresado) {
             console.log(`El numero era ${i}`);
             console.log(`Lo encontre en  ${contadorvueltas}`);
